@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bath Economist - Economics News & Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>The Bath Economist</h1>
+                <p class="tagline">Economics News & Global Analysis</p>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#articles" class="nav-link">Articles</a>
+                <a href="#newsletter" class="nav-link">Newsletter</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Stay Informed on Global Economics</h2>
+            <p>Deep insights into markets, policy, and economic trends shaping our world</p>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search articles...">
+            <button id="searchBtn" class="search-btn">Search</button>
+        </div>
+    </section>
+
+    <!-- Category Filters -->
+    <section class="filters-section">
+        <div class="filters-container">
+            <h3>Filter by Category:</h3>
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="macroeconomics">Macroeconomics</button>
+                <button class="category-btn" data-category="microeconomics">Microeconomics</button>
+                <button class="category-btn" data-category="markets">Markets</button>
+                <button class="category-btn" data-category="policy">Policy</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section id="articles" class="articles-section">
+        <div class="articles-container" id="articlesContainer">
+            <!-- Articles will be rendered here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section id="newsletter" class="newsletter-section">
+        <div class="newsletter-container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest economics news delivered to your inbox weekly</p>
+            <form id="newsletterForm" class="newsletter-form">
+                <input type="email" id="emailInput" class="newsletter-input" placeholder="Enter your email address" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+            <div id="newsletterMessage" class="newsletter-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 The Bath Economist. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
