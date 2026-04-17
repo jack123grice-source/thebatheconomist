@@ -6,70 +6,7 @@ const articles = [
         excerpt: "World economic growth surpasses expectations as emerging markets show strong recovery signals.",
         category: "macroeconomics",
         date: "2026-04-15"
-    },
-    {
-        id: 2,
-        title: "Tech Startup Valuations: A New Bubble?",
-        excerpt: "Investors debate whether current tech company valuations are sustainable or correction.",
-        category: "microeconomics",
-        date: "2026-04-14"
-    },
-    {
-        id: 3,
-        title: "Stock Markets Rally on Fed Rate Expectations",
-        excerpt: "Major indices gain ground as investors anticipate potential interest rate adjustments.",
-        category: "markets",
-        date: "2026-04-13"
-    },
-    {
-        id: 4,
-        title: "New Trade Agreement Signed Between Nations",
-        excerpt: "Three major economies reach landmark deal to reduce tariffs and boost commerce.",
-        category: "policy",
-        date: "2026-04-12"
-    },
-    {
-        id: 5,
-        title: "Cryptocurrency Markets Show Volatility",
-        excerpt: "Digital assets experience significant price swings amid regulatory developments.",
-        category: "markets",
-        date: "2026-04-11"
-    },
-    {
-        id: 6,
-        title: "Inflation Trends: What Experts Predict",
-        excerpt: "Economists analyze current inflation patterns and forecast implications for consumers.",
-        category: "macroeconomics",
-        date: "2026-04-10"
-    },
-    {
-        id: 7,
-        title: "Small Business Trends Post-Pandemic",
-        excerpt: "Data reveals changing patterns in entrepreneurship and small business growth.",
-        category: "microeconomics",
-        date: "2026-04-09"
-    },
-    {
-        id: 8,
-        title: "Central Bank Policy Shift Signals Change",
-        excerpt: "Major central bank announces new monetary policy framework for upcoming quarters.",
-        category: "policy",
-        date: "2026-04-08"
-    },
-    {
-        id: 9,
-        title: "Oil Prices Surge on Supply Concerns",
-        excerpt: "Energy markets react to geopolitical tensions and production uncertainties.",
-        category: "markets",
-        date: "2026-04-07"
-    },
-    {
-        id: 10,
-        title: "Labor Market Recovery Continues",
-        excerpt: "Employment figures show steady gains as unemployment reaches multi-year lows.",
-        category: "macroeconomics",
-        date: "2026-04-06"
-    }
+   
 ];
 
 let currentFilter = 'all';
